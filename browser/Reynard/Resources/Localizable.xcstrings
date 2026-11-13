@@ -332,25 +332,25 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard momentálně nemá přístup k oprávnění %@. Oprávnění lze spravovat v aplikaci Nastavení."
+            "value" : "Alook momentálně nemá přístup k oprávnění %@. Oprávnění lze spravovat v aplikaci Nastavení."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ sind für Reynard deaktiviert. Öffne die Einstellungen, um den Zugriff zuzulassen."
+            "value" : "%@ sind für Alook deaktiviert. Öffne die Einstellungen, um den Zugriff zuzulassen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ are disabled for Reynard. Open Settings to allow access."
+            "value" : "%@ are disabled for Alook. Open Settings to allow access."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ sont désactivés pour Reynard. Ouvrez les paramètres pour autoriser l'accès."
+            "value" : "%@ sont désactivés pour Alook. Ouvrez les paramètres pour autoriser l'accès."
           }
         },
         "ja" : {
@@ -362,31 +362,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ są wyłączone dla Reynard. Otwórz Ustawienia, aby zezwolić na dostęp."
+            "value" : "%@ są wyłączone dla Alook. Otwórz Ustawienia, aby zezwolić na dostęp."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Для Reynard отключены: %@. Разрешите доступ в Настройках.\n"
+            "value" : "Для Alook отключены: %@. Разрешите доступ в Настройках.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard đang không có quyền truy cập vào %@ của bạn. Hãy mở Cài đặt để cho phép."
+            "value" : "Alook đang không có quyền truy cập vào %@ của bạn. Hãy mở Cài đặt để cho phép."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ 已对 Reynard 停用。请打开“设置”以允许访问。"
+            "value" : "%@ 已对 Alook 停用。请打开“设置”以允许访问。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ 功能已被禁用，開啟設定以允許 Reynard 存取"
+            "value" : "%@ 功能已被禁用，開啟設定以允許 Alook 存取"
           }
         }
       }
@@ -462,25 +462,25 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard momentálně nemá přístup k oprávnění %@. Oprávnění lze spravovat v aplikaci Nastavení."
+            "value" : "Alook momentálně nemá přístup k oprávnění %@. Oprávnění lze spravovat v aplikaci Nastavení."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ ist für Reynard deaktiviert. Öffne die Einstellungen, um den Zugriff zuzulassen."
+            "value" : "%@ ist für Alook deaktiviert. Öffne die Einstellungen, um den Zugriff zuzulassen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ is disabled for Reynard. Open Settings to allow access."
+            "value" : "%@ is disabled for Alook. Open Settings to allow access."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ est désactivé pour Reynard. Ouvrez les paramètres pour donner accès."
+            "value" : "%@ est désactivé pour Alook. Ouvrez les paramètres pour donner accès."
           }
         },
         "ja" : {
@@ -492,31 +492,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ jest zablokowane dla Reynard. Otwórz Ustawienia, aby zezwolić na dostęp."
+            "value" : "%@ jest zablokowane dla Alook. Otwórz Ustawienia, aby zezwolić na dostęp."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Для Reynard отключено: %@. Разрешите доступ в Настройках.\n"
+            "value" : "Для Alook отключено: %@. Разрешите доступ в Настройках.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard đang không có quyền truy cập %@. Hãy mở Cài đặt để cho phép."
+            "value" : "Alook đang không có quyền truy cập %@. Hãy mở Cài đặt để cho phép."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ 已对 Reynard 停用。请打开“设置”以允许访问。"
+            "value" : "%@ 已对 Alook 停用。请打开“设置”以允许访问。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 的 %@ 權限已關閉。請開啟「設定」以允許取用。"
+            "value" : "Alook 的 %@ 權限已關閉。請開啟「設定」以允許取用。"
           }
         }
       }
@@ -3273,25 +3273,25 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Je k dispozici nová verze prohlížeče Reynard. Aktualizaci je možno provést v nastavení."
+            "value" : "Je k dispozici nová verze prohlížeče Alook. Aktualizaci je možno provést v nastavení."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eine neue Version von Reynard ist verfügbar. Öffne die Einstellungen zum Aktualisieren."
+            "value" : "Eine neue Version von Alook ist verfügbar. Öffne die Einstellungen zum Aktualisieren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A new version of Reynard Browser is available. Open Settings to update."
+            "value" : "A new version of Alook Browser is available. Open Settings to update."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Une nouvelle version du navigateur Reynard est disponible. Ouvrez les paramètres effectuer la mise à jour."
+            "value" : "Une nouvelle version du navigateur Alook est disponible. Ouvrez les paramètres effectuer la mise à jour."
           }
         },
         "ja" : {
@@ -3303,31 +3303,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nowa wersja Reynard Browser jest dostępna. Otwórz Ustawienia, aby zaktualizować."
+            "value" : "Nowa wersja Alook Browser jest dostępna. Otwórz Ustawienia, aby zaktualizować."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Доступна новая версия Reynard Browser. Обновите её в Настройках.\n"
+            "value" : "Доступна новая версия Alook Browser. Обновите её в Настройках.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đã có phiên bản mới của Trình duyệt Reynard. Mở Cài đặt để cập nhật."
+            "value" : "Đã có phiên bản mới của Trình duyệt Alook. Mở Cài đặt để cập nhật."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "有新版本的 Reynard 浏览器可用。请打开“设置”以更新。"
+            "value" : "有新版本的 Alook 浏览器可用。请打开“设置”以更新。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 瀏覽器已有新版本。請開啟「設定」進行更新。"
+            "value" : "Alook 瀏覽器已有新版本。請開啟「設定」進行更新。"
           }
         }
       }
@@ -4814,61 +4814,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Po zavření panelu Reynard zapomene jakékoliv cookies a historii prohlížení. Stažené soubory a nové záložky budou nicméně uloženy."
+            "value" : "Po zavření panelu Alook zapomene jakékoliv cookies a historii prohlížení. Stažené soubory a nové záložky budou nicméně uloženy."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nachdem du ein Tab geschlossen hast, speichert Reynard weder den Browserverlauf noch Cookies. Downloads und neue Lesezeichen werden jedoch gespeichert."
+            "value" : "Nachdem du ein Tab geschlossen hast, speichert Alook weder den Browserverlauf noch Cookies. Downloads und neue Lesezeichen werden jedoch gespeichert."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "After you close a tab, Reynard won’t remember any of your browsing history or cookies. However, downloads and new bookmarks will be saved."
+            "value" : "After you close a tab, Alook won’t remember any of your browsing history or cookies. However, downloads and new bookmarks will be saved."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Après la fermeture d'un onglet, Reynard ne conservera pas votre historique de navigation ou vos cookies. Cependant, vos téléchargements et les marques pages ajoutés seront conservés. "
+            "value" : "Après la fermeture d'un onglet, Alook ne conservera pas votre historique de navigation ou vos cookies. Cependant, vos téléchargements et les marques pages ajoutés seront conservés. "
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一度タブを閉じるとReynardは履歴とクッキーの情報を削除しますが、ダウンロードや新しいブックマークは保存されます"
+            "value" : "一度タブを閉じるとAlookは履歴とクッキーの情報を削除しますが、ダウンロードや新しいブックマークは保存されます"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Po zamknięciu karty Reynard nie będzie pamiętał historii przeglądania ani plików cookie. Pobrane pliki i nowe zakładki zostaną jednak zapisane."
+            "value" : "Po zamknięciu karty Alook nie będzie pamiętał historii przeglądania ani plików cookie. Pobrane pliki i nowe zakładki zostaną jednak zapisane."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "После закрытия вкладки Reynard удалит историю поиска и файлы cookie. Скачанные файлы и новые закладки сохранятся.\n"
+            "value" : "После закрытия вкладки Alook удалит историю поиска и файлы cookie. Скачанные файлы и новые закладки сохранятся.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard sẽ không lưu lịch sử duyệt web hay cookie sau khi bạn đóng tab trong chế độ duyệt riêng tư. Tuy nhiên, các mục tải về và dấu trang mới vẫn sẽ được lưu."
+            "value" : "Alook sẽ không lưu lịch sử duyệt web hay cookie sau khi bạn đóng tab trong chế độ duyệt riêng tư. Tuy nhiên, các mục tải về và dấu trang mới vẫn sẽ được lưu."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "关闭标签页后，Reynard 不会记住任何浏览历史记录或 Cookie。但是，下载项目和新书签仍会保留。"
+            "value" : "关闭标签页后，Alook 不会记住任何浏览历史记录或 Cookie。但是，下载项目和新书签仍会保留。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關閉標籤頁後，Reynard 不會記住你的任何瀏覽記錄或 Cookie。不過，下載項目與新加入的書籤仍會儲存。"
+            "value" : "關閉標籤頁後，Alook 不會記住你的任何瀏覽記錄或 Cookie。不過，下載項目與新加入的書籤仍會儲存。"
           }
         }
       }
@@ -12983,61 +12983,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stáhnout Reynard (.tipa)"
+            "value" : "Stáhnout Alook (.tipa)"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard herunterladen (.tipa)"
+            "value" : "Alook herunterladen (.tipa)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Download Reynard (.tipa)"
+            "value" : "Download Alook (.tipa)"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Télécharger Reynard (.tipa)"
+            "value" : "Télécharger Alook (.tipa)"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard(.tipa)えおダウンロード"
+            "value" : "Alook(.tipa)えおダウンロード"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pobierz Reynard (.tipa)"
+            "value" : "Pobierz Alook (.tipa)"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Скачать Reynard (.tipa)\n"
+            "value" : "Скачать Alook (.tipa)\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tải Reynard (.tipa)"
+            "value" : "Tải Alook (.tipa)"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下载 Reynard（.tipa）"
+            "value" : "下载 Alook（.tipa）"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下載 Reynard（.tipa）"
+            "value" : "下載 Alook（.tipa）"
           }
         }
       }
@@ -16122,7 +16122,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Do Reynardu si z jiného prohlížeče můžete importovat vaše záložky, historii a ostatní data."
+            "value" : "Do Alooku si z jiného prohlížeče můžete importovat vaše záložky, historii a ostatní data."
           }
         },
         "de" : {
@@ -16134,7 +16134,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Import your bookmarks, history, and other browser data into Reynard."
+            "value" : "Import your bookmarks, history, and other browser data into Alook."
           }
         },
         "fr" : {
@@ -16146,7 +16146,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ブックマーク、履歴、その他のブラウザデータをReynardにインポートします。"
+            "value" : "ブックマーク、履歴、その他のブラウザデータをAlookにインポートします。"
           }
         },
         "pl" : {
@@ -16571,61 +16571,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Když si nainstalujete verzi Reynardu pro TrollStore, JIT bude možno spustit automaticky, čímž se zlepší výkon aplikace a zajistí správné fungování stránek."
+            "value" : "Když si nainstalujete verzi Alooku pro TrollStore, JIT bude možno spustit automaticky, čímž se zlepší výkon aplikace a zajistí správné fungování stránek."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Installiere die TrollStore-Version von Reynard, um JIT automatisch zu aktivieren, die Leistung zu verbessern und sicherzustellen, dass Webseiten ordnungsgemäß funktionieren."
+            "value" : "Installiere die TrollStore-Version von Alook, um JIT automatisch zu aktivieren, die Leistung zu verbessern und sicherzustellen, dass Webseiten ordnungsgemäß funktionieren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Install the TrollStore version of Reynard to enable JIT automatically for improved performance and to ensure websites work properly."
+            "value" : "Install the TrollStore version of Alook to enable JIT automatically for improved performance and to ensure websites work properly."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Installer la version TrollStore de Reynard afin d'activer le JIT automatiquement pour améliorer les performances et s'assurer que les sites Web fonctionnent correctement."
+            "value" : "Installer la version TrollStore de Alook afin d'activer le JIT automatiquement pour améliorer les performances et s'assurer que les sites Web fonctionnent correctement."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "自動でJITを有効にするにはTrollStore版のReynardをインストールしてください。パフォーマンスの向上とサイトが正しく動作する事が期待できます。"
+            "value" : "自動でJITを有効にするにはTrollStore版のAlookをインストールしてください。パフォーマンスの向上とサイトが正しく動作する事が期待できます。"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zainstaluj wersję Reynard dostępną w TrollStore, aby automatycznie włączyć JIT i poprawić wydajność, a także zapewnić prawidłowe działanie stron internetowych."
+            "value" : "Zainstaluj wersję Alook dostępną w TrollStore, aby automatycznie włączyć JIT i poprawić wydajność, a także zapewnić prawidłowe działanie stron internetowych."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Установите версию Reynard для TrollStore, чтобы автоматически включать JIT, повысить производительность и обеспечить правильную обработку сайтов.\n"
+            "value" : "Установите версию Alook для TrollStore, чтобы автоматически включать JIT, повысить производительность и обеспечить правильную обработку сайтов.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cài đặt phiên bản Reynard dành cho TrollStore để tự động bật JIT, từ đó cải thiện hiệu năng và giúp các trang web hoạt động bình thường."
+            "value" : "Cài đặt phiên bản Alook dành cho TrollStore để tự động bật JIT, từ đó cải thiện hiệu năng và giúp các trang web hoạt động bình thường."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "安装 TrollStore 版 Reynard，即可自动启用 JIT，以提高性能并确保网站正常工作。"
+            "value" : "安装 TrollStore 版 Alook，即可自动启用 JIT，以提高性能并确保网站正常工作。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "安裝 TrollStore 版 Reynard，即可自動啟用 JIT，提升效能並確保網站能正常運作。"
+            "value" : "安裝 TrollStore 版 Alook，即可自動啟用 JIT，提升效能並確保網站能正常運作。"
           }
         }
       }
@@ -16898,7 +16898,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dieses Problem tritt äußerst selten auf! Stelle sicher, dass die TrollStore-Installation oder Jailbreak-Umgebung ordnungsgemäß konfiguriert ist.\n\nDu kannst den Reynard vorübergehend bis zum nächsten Start ohne JIT nutzen, indem der JIT-Less-Modus aktiviert wird."
+            "value" : "Dieses Problem tritt äußerst selten auf! Stelle sicher, dass die TrollStore-Installation oder Jailbreak-Umgebung ordnungsgemäß konfiguriert ist.\n\nDu kannst den Alook vorübergehend bis zum nächsten Start ohne JIT nutzen, indem der JIT-Less-Modus aktiviert wird."
           }
         },
         "en" : {
@@ -22871,7 +22871,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bitte überprüfe, ob die Pairing-Datei gültig ist, dein Loopback-VPN aktiviert ist und du mit einem stabilen WLAN-Netzwerk verbunden bist.\n\nDu kannst den Reynard vorübergehend bis zum nächsten Start ohne JIT nutzen, indem der JIT-Less-Modus aktiviert wird."
+            "value" : "Bitte überprüfe, ob die Pairing-Datei gültig ist, dein Loopback-VPN aktiviert ist und du mit einem stabilen WLAN-Netzwerk verbunden bist.\n\nDu kannst den Alook vorübergehend bis zum nächsten Start ohne JIT nutzen, indem der JIT-Less-Modus aktiviert wird."
           }
         },
         "en" : {
@@ -23634,61 +23634,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ukončit Reynard"
+            "value" : "Ukončit Alook"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard beenden"
+            "value" : "Alook beenden"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit Reynard"
+            "value" : "Quit Alook"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quitter Reynard"
+            "value" : "Quitter Alook"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynardを閉じる"
+            "value" : "Alookを閉じる"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wyjdź z Reynard"
+            "value" : "Wyjdź z Alook"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закрыть Reynard\n"
+            "value" : "Закрыть Alook\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thoát Reynard"
+            "value" : "Thoát Alook"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 Reynard"
+            "value" : "退出 Alook"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "結束 Reynard"
+            "value" : "結束 Alook"
           }
         }
       }
@@ -25623,61 +25623,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prohlížeč Reynard"
+            "value" : "Prohlížeč Alook"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard-Browser"
+            "value" : "Alook-Browser"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard Browser"
+            "value" : "Alook Browser"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Navigateur Web Reynard"
+            "value" : "Navigateur Web Alook"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard Browser"
+            "value" : "Alook Browser"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard Browser"
+            "value" : "Alook Browser"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard Browser\n"
+            "value" : "Alook Browser\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trình duyệt Reynard"
+            "value" : "Trình duyệt Alook"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 浏览器"
+            "value" : "Alook 浏览器"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 瀏覽器"
+            "value" : "Alook 瀏覽器"
           }
         }
       }
@@ -25687,61 +25687,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard si nebude pamatovat vaši historii prohlížení ani cookies. Stažené soubory a nové záložky budou nicméně uloženy."
+            "value" : "Alook si nebude pamatovat vaši historii prohlížení ani cookies. Stažené soubory a nové záložky budou nicméně uloženy."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard speichert weder den Browserverlauf noch Cookies. Downloads und neue Lesezeichen werden jedoch gespeichert."
+            "value" : "Alook speichert weder den Browserverlauf noch Cookies. Downloads und neue Lesezeichen werden jedoch gespeichert."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard won’t remember any of your browsing history or cookies. However, downloads and new bookmarks will be saved."
+            "value" : "Alook won’t remember any of your browsing history or cookies. However, downloads and new bookmarks will be saved."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard ne conservera pas votre historique de recherche ou vos cookies. Cependant, vos téléchargements et les marques pages ajoutés seront conservés. "
+            "value" : "Alook ne conservera pas votre historique de recherche ou vos cookies. Cependant, vos téléchargements et les marques pages ajoutés seront conservés. "
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一度タブを閉じるとReynardは履歴とクッキーの情報を削除しますが、ダウンロードや新しいブックマークは保存されます"
+            "value" : "一度タブを閉じるとAlookは履歴とクッキーの情報を削除しますが、ダウンロードや新しいブックマークは保存されます"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard nie będzie zapamiętywał historii przeglądania ani plików cookie. Pobrane pliki i nowe zakładki zostaną jednak zapisane."
+            "value" : "Alook nie będzie zapamiętywał historii przeglądania ani plików cookie. Pobrane pliki i nowe zakładki zostaną jednak zapisane."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard не сохранит историю посещений и файлы cookie. Скачанные файлы и новые закладки при этом сохранятся.\n"
+            "value" : "Alook не сохранит историю посещений и файлы cookie. Скачанные файлы и новые закладки при этом сохранятся.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard sẽ không lưu lịch sử duyệt web hay cookie nào của bạn trong chế độ duyệt riêng tư. Tuy nhiên, các mục tải về và dấu trang mới vẫn sẽ được lưu."
+            "value" : "Alook sẽ không lưu lịch sử duyệt web hay cookie nào của bạn trong chế độ duyệt riêng tư. Tuy nhiên, các mục tải về và dấu trang mới vẫn sẽ được lưu."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 不会记住任何浏览历史记录或 Cookie。但是，下载项目和新书签仍会保留。"
+            "value" : "Alook 不会记住任何浏览历史记录或 Cookie。但是，下载项目和新书签仍会保留。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard 不會記住你的任何瀏覽記錄或 Cookie。不過，下載項目和新增的書籤仍會保留。"
+            "value" : "Alook 不會記住你的任何瀏覽記錄或 Cookie。不過，下載項目和新增的書籤仍會保留。"
           }
         }
       }
@@ -28892,61 +28892,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jelikož JIT zapínáte poprvé, Reynard potřebuje stáhnout a připojit Developer Disk Image. K správnému fungování JIT je to potřeba."
+            "value" : "Jelikož JIT zapínáte poprvé, Alook potřebuje stáhnout a připojit Developer Disk Image. K správnému fungování JIT je to potřeba."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Da JIT zum ersten Mal aktiviert wird, muss Reynard das Developer-Disk-Image herunterladen und einbinden. Dies ist erforderlich, damit JIT ordnungsgemäß funktioniert."
+            "value" : "Da JIT zum ersten Mal aktiviert wird, muss Alook das Developer-Disk-Image herunterladen und einbinden. Dies ist erforderlich, damit JIT ordnungsgemäß funktioniert."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Since this is your first time enabling JIT, Reynard needs to download and mount the Developer Disk Image. This is required for JIT to work properly."
+            "value" : "Since this is your first time enabling JIT, Alook needs to download and mount the Developer Disk Image. This is required for JIT to work properly."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Puisque c'est la première fois que vous activez le JIT, Reynard doit télécharger et monter l'Image Disque de développeur. Ceci est obligatoire pour le bon fonctionnement du JIT."
+            "value" : "Puisque c'est la première fois que vous activez le JIT, Alook doit télécharger et monter l'Image Disque de développeur. Ceci est obligatoire pour le bon fonctionnement du JIT."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "初めてJITを有効するにあたって正しく動作させるためにはReynardはデベロッパーディスクイメージのダウンロードとマウントが必要です。"
+            "value" : "初めてJITを有効するにあたって正しく動作させるためにはAlookはデベロッパーディスクイメージのダウンロードとマウントが必要です。"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ponieważ włączasz JIT po raz pierwszy, Reynard musi pobrać i zamontować obraz dysku deweloperskiego. Jest to wymagane do prawidłowego działania JIT."
+            "value" : "Ponieważ włączasz JIT po raz pierwszy, Alook musi pobrać i zamontować obraz dysku deweloperskiego. Jest to wymagane do prawidłowego działania JIT."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поскольку вы включаете JIT впервые, Reynard необходимо скачать и смонтировать Developer Disk Image. Это требуется для корректной работы JIT.\n"
+            "value" : "Поскольку вы включаете JIT впервые, Alook необходимо скачать и смонтировать Developer Disk Image. Это требуется для корректной работы JIT.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vì đây là lần đầu bạn bật JIT, Reynard cần tải về và gắn ảnh đĩa dành cho nhà phát triển để JIT hoạt động bình thường."
+            "value" : "Vì đây là lần đầu bạn bật JIT, Alook cần tải về và gắn ảnh đĩa dành cho nhà phát triển để JIT hoạt động bình thường."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "由于这是你首次启用 JIT，Reynard 需要下载并挂载“开发者磁盘映像”。这对 JIT 正常工作是必需的。"
+            "value" : "由于这是你首次启用 JIT，Alook 需要下载并挂载“开发者磁盘映像”。这对 JIT 正常工作是必需的。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "由於這是你第一次啟用 JIT，Reynard 需要下載並掛載開發者磁碟映像檔。這是 JIT 正常運作的必要步驟。"
+            "value" : "由於這是你第一次啟用 JIT，Alook 需要下載並掛載開發者磁碟映像檔。這是 JIT 正常運作的必要步驟。"
           }
         }
       }
@@ -29988,7 +29988,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard wird nun geschlossen, damit die JIT-Einstellung wirksam wird."
+            "value" : "Alook wird nun geschlossen, damit die JIT-Einstellung wirksam wird."
           }
         },
         "en" : {
@@ -30000,7 +30000,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reynard va se fermer afin d'appliquer la configuration du JIT."
+            "value" : "Alook va se fermer afin d'appliquer la configuration du JIT."
           }
         },
         "ja" : {
@@ -30623,7 +30623,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Soubor není platnou historií Reynardu, Safari nebo Chromu."
+            "value" : "Soubor není platnou historií Alooku, Safari nebo Chromu."
           }
         },
         "de" : {
@@ -30635,7 +30635,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The file is not a valid Reynard, Safari, or Chrome Takeout history."
+            "value" : "The file is not a valid Alook, Safari, or Chrome Takeout history."
           }
         },
         "fr" : {
@@ -30647,7 +30647,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このファイルは、有効なReynard、Safari、またはChrome Takeoutの履歴ファイルではありません。"
+            "value" : "このファイルは、有効なAlook、Safari、またはChrome Takeoutの履歴ファイルではありません。"
           }
         },
         "pl" : {
@@ -30900,7 +30900,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Les fichiers d'Image Disque de développeur nécessaires ont l'activation du JIT sont introuvables. \n\nLe JIT a été désactivé. Veuillez quitter Reynard en utilisant le bouton ci-dessous, puis réactivez le JIT depuis les paramètres du navigateur."
+            "value" : "Les fichiers d'Image Disque de développeur nécessaires ont l'activation du JIT sont introuvables. \n\nLe JIT a été désactivé. Veuillez quitter Alook en utilisant le bouton ci-dessous, puis réactivez le JIT depuis les paramètres du navigateur."
           }
         },
         "ja" : {
@@ -31331,61 +31331,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toto rozšíření není podporováno touto verzí Reynardu a bylo zakázáno."
+            "value" : "Toto rozšíření není podporováno touto verzí Alooku a bylo zakázáno."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dieses Add-on wird von dieser Version von Reynard nicht unterstützt und wurde deaktiviert."
+            "value" : "Dieses Add-on wird von dieser Version von Alook nicht unterstützt und wurde deaktiviert."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This add-on isn’t supported by this version of Reynard and has been disabled."
+            "value" : "This add-on isn’t supported by this version of Alook and has been disabled."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cette extension n'est pas prise en charge par cette version de Reynard et a été désactivée."
+            "value" : "Cette extension n'est pas prise en charge par cette version de Alook et a été désactivée."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このアドオンは現在使用中のReynardのバージョンは対応していませんので無効化されました"
+            "value" : "このアドオンは現在使用中のAlookのバージョンは対応していませんので無効化されました"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ten dodatek nie jest obsługiwany przez tę wersję Reynard i został wyłączony."
+            "value" : "Ten dodatek nie jest obsługiwany przez tę wersję Alook i został wyłączony."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Эта версия Reynard не поддерживает дополнение, поэтому оно отключено.\n"
+            "value" : "Эта версия Alook не поддерживает дополнение, поэтому оно отключено.\n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tiện ích mở rộng này không được phiên bản Reynard hiện tại hỗ trợ nên đã bị tắt."
+            "value" : "Tiện ích mở rộng này không được phiên bản Alook hiện tại hỗ trợ nên đã bị tắt."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此版本的 Reynard 不支持此插件，已将其停用。"
+            "value" : "此版本的 Alook 不支持此插件，已将其停用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此版本的 Reynard 不支援此附加元件，因此已將其停用。"
+            "value" : "此版本的 Alook 不支援此附加元件，因此已將其停用。"
           }
         }
       }
@@ -34797,61 +34797,61 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jakmile bude stahování dokončeno, pro instalaci vyberte v menu Sdílet tu aplikaci, pomocí které jste nainstalovali Reynard."
+            "value" : "Jakmile bude stahování dokončeno, pro instalaci vyberte v menu Sdílet tu aplikaci, pomocí které jste nainstalovali Alook."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sobald der Download abgeschlossen ist, wähle im Share Sheet die App aus, mit der du Reynard installiert hast, um das Update anzuwenden."
+            "value" : "Sobald der Download abgeschlossen ist, wähle im Share Sheet die App aus, mit der du Alook installiert hast, um das Update anzuwenden."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When the download finishes, choose the app that you used to sideload Reynard in the share sheet to install the update."
+            "value" : "When the download finishes, choose the app that you used to sideload Alook in the share sheet to install the update."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A la fin du téléchargement, veuillez choisir l'application avec laquelle vous avez installé Reynard depuis la fiche de partage afin de terminer la mise à jour."
+            "value" : "A la fin du téléchargement, veuillez choisir l'application avec laquelle vous avez installé Alook depuis la fiche de partage afin de terminer la mise à jour."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ダウンロードが完了したら、共有画面でReynardのサイドロードに使用したアプリを選択してアップデートをインストールしてください。"
+            "value" : "ダウンロードが完了したら、共有画面でAlookのサイドロードに使用したアプリを選択してアップデートをインストールしてください。"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Po zakończeniu pobierania wybierz w menu udostępniania aplikację, której użyłeś do pobrania (sideload) Reynard, aby zainstalować aktualizację."
+            "value" : "Po zakończeniu pobierania wybierz w menu udostępniania aplikację, której użyłeś do pobrania (sideload) Alook, aby zainstalować aktualizację."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Когда загрузка завершится, выберите в меню «Поделиться» приложение, с помощью которого вы устанавливали Reynard, чтобы установить обновление.   \n"
+            "value" : "Когда загрузка завершится, выберите в меню «Поделиться» приложение, с помощью которого вы устанавливали Alook, чтобы установить обновление.   \n"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Khi tải xong, hãy chọn ứng dụng bạn đã dùng để cài đặt Reynard trong phần chia sẻ, rồi dùng ứng dụng đó để cài đặt bản cập nhật."
+            "value" : "Khi tải xong, hãy chọn ứng dụng bạn đã dùng để cài đặt Alook trong phần chia sẻ, rồi dùng ứng dụng đó để cài đặt bản cập nhật."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下载完成后，在共享表单中选取你用于侧载 Reynard 的 App 以安装更新。"
+            "value" : "下载完成后，在共享表单中选取你用于侧载 Alook 的 App 以安装更新。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下載完成後，請在分享表單中選擇你用來側載 Reynard 的 App，以安裝更新。"
+            "value" : "下載完成後，請在分享表單中選擇你用來側載 Alook 的 App，以安裝更新。"
           }
         }
       }
