@@ -162,6 +162,7 @@ final class BrowserViewController: UIViewController, GeckoScreenOrientationDeleg
         contextMenuCoordinator.configure()
         downloadsCoordinator.startObservingStore()
         downloadsCoordinator.syncToolbarButtonState()
+        VideoEnhanceController.install()
         tabOverview.restoreMode(TabOverview.Mode(tabMode: TabManagementStore.shared.preferredRestoredMode()))
         syncBrowserNavigationChrome(animated: false)
         browserChrome.syncSidebarButton(splitViewController: splitViewController)

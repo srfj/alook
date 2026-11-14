@@ -1,0 +1,170 @@
+diff --git a/mobile/ios/app/videoenhance/videoenhance-content.js b/mobile/ios/app/videoenhance/videoenhance-content.js
+new file mode 100644
+index 000000000000..921d16800f6f
+--- /dev/null
++++ b/mobile/ios/app/videoenhance/videoenhance-content.js
+@@ -0,0 +1,164 @@
++(function () {
++  "use strict";
++
++  var RATES = [0.5, 0.75, 1, 1.25, 1.5, 2, 3];
++  var STORE_KEY = "alook.video.rate";
++  var rate = 1;
++  try { rate = parseFloat(sessionStorage.getItem(STORE_KEY)) || 1; } catch (e) {}
++
++  var panel = null;
++  var hideTimer = null;
++
++  function applyRate(v) {
++    try { v.playbackRate = rate; } catch (e) {}
++  }
++
++  function ensurePanel() {
++    if (panel) return panel;
++    panel = document.createElement("div");
++    panel.setAttribute("data-alook-video-panel", "1");
++    panel.style.cssText = [
++      "position:fixed", "left:50%", "bottom:110px", "transform:translateX(-50%)",
++      "display:flex", "gap:2px", "padding:6px", "border-radius:12px",
++      "background:rgba(28,28,30,.92)", "z-index:2147483647",
++      "box-shadow:0 4px 18px rgba(0,0,0,.35)",
++      "opacity:0", "transition:opacity .15s", "pointer-events:none"
++    ].join(";");
++    RATES.forEach(function (r) {
++      var b = document.createElement("button");
++      b.textContent = r + "x";
++      b.setAttribute("data-rate", String(r));
++      b.style.cssText = [
++        "border:0", "background:transparent", "color:#fff", "padding:8px 10px",
++        "border-radius:8px", "font:600 13px -apple-system,sans-serif"
++      ].join(";");
++      b.addEventListener("click", function (ev) {
++        ev.preventDefault();
++        ev.stopPropagation();
++        rate = r;
++        try { sessionStorage.setItem(STORE_KEY, String(r)); } catch (e) {}
++        var vids = document.querySelectorAll("video");
++        for (var i = 0; i < vids.length; i++) {
++          try { vids[i].playbackRate = rate; } catch (e) {}
++        }
++        highlight();
++        scheduleHide();
++      }, true);
++      panel.appendChild(b);
++    });
++    (document.body || document.documentElement).appendChild(panel);
++    return panel;
++  }
++
++  function highlight() {
++    if (!panel) return;
++    var bs = panel.querySelectorAll("button");
++    for (var i = 0; i < bs.length; i++) {
++      var on = parseFloat(bs[i].getAttribute("data-rate")) === rate;
++      bs[i].style.background = on ? "rgba(255,255,255,.28)" : "transparent";
++    }
++  }
++
++  function showPanel() {
++    ensurePanel();
++    highlight();
++    panel.style.opacity = "1";
++    panel.style.pointerEvents = "auto";
++    scheduleHide();
++  }
++
++  function hidePanel() {
++    if (!panel) return;
++    panel.style.opacity = "0";
++    panel.style.pointerEvents = "none";
++  }
++
++  function scheduleHide() {
++    clearTimeout(hideTimer);
++    hideTimer = setTimeout(hidePanel, 4000);
++  }
++
++  function seek(v, delta) {
++    if (!delta) return;
++    try {
++      var end = isFinite(v.duration) ? v.duration : v.currentTime + Math.abs(delta);
++      v.currentTime = Math.max(0, Math.min(end, v.currentTime + delta));
++    } catch (e) {}
++  }
++
++  function attach(v) {
++    if (v.getAttribute("data-alook-bound")) return;
++    v.setAttribute("data-alook-bound", "1");
++    applyRate(v);
++
++    var downTime = 0;
++    var downX = 0;
++    var downY = 0;
++    var lastTap = 0;
++    var moved = false;
++    var longTimer = null;
++    var longFired = false;
++
++    v.addEventListener("pointerdown", function (e) {
++      downTime = Date.now();
++      downX = e.clientX;
++      downY = e.clientY;
++      moved = false;
++      longFired = false;
++      clearTimeout(longTimer);
++      longTimer = setTimeout(function () {
++        longFired = true;
++        showPanel();
++      }, 650);
++    }, true);
++
++    v.addEventListener("pointermove", function (e) {
++      if (Math.abs(e.clientX - downX) > 12 || Math.abs(e.clientY - downY) > 12) {
++        moved = true;
++        clearTimeout(longTimer);
++      }
++    }, true);
++
++    v.addEventListener("pointercancel", function () {
++      clearTimeout(longTimer);
++    }, true);
++
++    v.addEventListener("pointerup", function (e) {
++      clearTimeout(longTimer);
++      if (longFired || moved) return;
++      if (Date.now() - downTime > 400) return;
++
++      var now = Date.now();
++      if (now - lastTap < 280) {
++        var rect = v.getBoundingClientRect();
++        var x = e.clientX - rect.left;
++        if (x < rect.width / 3) {
++          seek(v, -10);
++        } else if (x > rect.width * 2 / 3) {
++          seek(v, 10);
++        }
++        lastTap = 0;
++      } else {
++        lastTap = now;
++      }
++    }, true);
++  }
++
++  function scan() {
++    var list = document.querySelectorAll("video");
++    for (var i = 0; i < list.length; i++) attach(list[i]);
++  }
++
++  if (document.readyState === "loading") {
++    document.addEventListener("DOMContentLoaded", scan, { once: true });
++  } else {
++    scan();
++  }
++
++  try {
++    var mo = new MutationObserver(scan);
++    mo.observe(document.documentElement, { childList: true, subtree: true });
++  } catch (e) {}
++
++  setInterval(scan, 1500);
++})();
