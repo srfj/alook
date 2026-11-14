@@ -1,0 +1,19 @@
+name: Trigger Build
+
+on:
+  push:
+    paths:
+      - ".github/workflows/trigger-build.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  call:
+    uses: ./.github/workflows/build.yml
+    with:
+      build_normal_ipa: false
+      build_jailbroken_ipa: false
+      build_trollstore_tipa: true
+      nightly: false
+    secrets: inherit
