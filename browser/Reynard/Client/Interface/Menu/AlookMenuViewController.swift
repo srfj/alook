@@ -74,7 +74,8 @@ enum AlookMenuAction: Int, CaseIterable {
     /// Items that already have a working implementation behind them.
     var isImplemented: Bool {
         switch self {
-        case .bookmarksAndHistory, .downloads, .addBookmark, .refresh, .share, .settings:
+        case .bookmarksAndHistory, .downloads, .addBookmark, .refresh, .share, .settings,
+             .desktopSite, .fullscreen:
             return true
         default:
             return false
@@ -83,7 +84,7 @@ enum AlookMenuAction: Int, CaseIterable {
 
     var isToggle: Bool {
         switch self {
-        case .nightMode, .adblock, .pip, .fullscreen, .noImage:
+        case .nightMode, .adblock, .pip, .fullscreen, .noImage, .desktopSite:
             return true
         default:
             return false
@@ -176,6 +177,7 @@ final class AlookMenuViewController: UIViewController {
     }()
 
     private var cardBottomConstraint: NSLayoutConstraint?
+    private var itemViews: [AlookMenuAction: AlookMenuItemView] = [:]
 
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -200,7 +202,7 @@ final class AlookMenuViewController: UIViewController {
         super.viewDidAppear(animated)
         if cardBottomConstraint?.constant != 0 {
             cardBottomConstraint?.constant = 0
-            UIView.animate(withDuration: 0.28, delay: 0, options: [.curveEaseOut]) {
+            UIView.animate(withDuration: 0.18, delay: 0, options: [.curveEaseOut]) {
                 self.backdropView.alpha = 1
                 self.view.layoutIfNeeded()
             }
@@ -302,6 +304,7 @@ final class AlookMenuViewController: UIViewController {
                 self?.handleSelection(action)
             }
             item.tag = index
+            itemViews[action] = item
             let page = pageViews[action.page]
             page.addSubview(item)
 
@@ -329,11 +332,49 @@ final class AlookMenuViewController: UIViewController {
     private func handleSelection(_ action: AlookMenuAction) {
         guard action.isImplemented else {
             UISelectionFeedbackGenerator().selectionChanged()
+            showComingSoon()
             return
         }
         dismiss(animated: true) { [weak self] in
             self?.onSelect?(action)
         }
+    }
+
+    /// Updates title and toggle badges without rebuilding the menu.
+    func updateState(title: String, toggleStates: [AlookMenuAction: Bool]) {
+        titleLabel.text = title
+        for (action, isOn) in toggleStates {
+            itemViews[action]?.isOn = isOn
+        }
+    }
+
+    private func showComingSoon() {
+        let toast = UILabel()
+        toast.translatesAutoresizingMaskIntoConstraints = false
+        toast.text = "该功能即将支持"
+        toast.font = .systemFont(ofSize: 13, weight: .medium)
+        toast.textColor = .white
+        toast.backgroundColor = UIColor.black.withAlphaComponent(0.75)
+        toast.textAlignment = .center
+        toast.layer.cornerRadius = 14
+        toast.layer.masksToBounds = true
+        toast.alpha = 0
+        cardView.addSubview(toast)
+        NSLayoutConstraint.activate([
+            toast.centerXAnchor.constraint(equalTo: cardView.centerXAnchor),
+            toast.centerYAnchor.constraint(equalTo: cardView.centerYAnchor),
+            toast.widthAnchor.constraint(equalToConstant: 140),
+            toast.heightAnchor.constraint(equalToConstant: 28),
+        ])
+        UIView.animate(withDuration: 0.15, animations: {
+            toast.alpha = 1
+        }, completion: { _ in
+            UIView.animate(withDuration: 0.2, delay: 0.9, animations: {
+                toast.alpha = 0
+            }, completion: { _ in
+                toast.removeFromSuperview()
+            })
+        })
     }
 
     @objc private func backdropTapped() {

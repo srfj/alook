@@ -46,6 +46,7 @@ final class BrowserViewController: UIViewController, GeckoScreenOrientationDeleg
     // MARK: - Views And Coordinators
     
     let tabOverview = TabOverview()
+    lazy var alookMenuController = AlookMenuViewController()
     let contentView = ContentView()
     lazy var browserChrome = BrowserChrome()
     var tabBar: TabBar { return browserChrome.tabBar }

@@ -10,12 +10,38 @@ import GeckoView
 
 extension BrowserViewController {
     func presentAlookMenu() {
-        let menu = AlookMenuViewController()
-        menu.currentPageTitle = tabManager.selectedTab?.title ?? ""
+        let menu = alookMenuController
+        guard presentedViewController !== menu else {
+            return
+        }
+
+        menu.loadViewIfNeeded()
+
+        let title = tabManager.selectedTab?.title ?? ""
+        var toggleStates: [AlookMenuAction: Bool] = [:]
+        toggleStates[.desktopSite] = isCurrentSiteDesktopMode()
+
+        menu.updateState(title: title, toggleStates: toggleStates)
         menu.onSelect = { [weak self] action in
             self?.handleAlookMenuAction(action)
         }
         present(menu, animated: true)
+    }
+
+    private func currentHost() -> String? {
+        guard let urlString = tabManager.selectedTab?.url,
+              let host = URL(string: urlString)?.host else {
+            return nil
+        }
+        return host
+    }
+
+    private func isCurrentSiteDesktopMode() -> Bool {
+        guard let host = currentHost(),
+              let mode = SiteSettingsStore.shared.settings(for: host)?.websiteMode else {
+            return false
+        }
+        return mode == .desktop
     }
 
     private func handleAlookMenuAction(_ action: AlookMenuAction) {
@@ -35,9 +61,27 @@ extension BrowserViewController {
             session.reload()
         case .share:
             shareCurrentPageFromMenu()
+        case .desktopSite:
+            toggleDesktopSite()
+        case .fullscreen:
+            guard let session = tabManager.selectedTab?.session else {
+                return
+            }
+            applyFullscreenState(true, for: session)
         default:
             break
         }
+    }
+
+    private func toggleDesktopSite() {
+        guard let host = currentHost(),
+              let session = tabManager.selectedTab?.session else {
+            return
+        }
+        let isDesktop = SiteSettingsStore.shared.settings(for: host)?.websiteMode == .desktop
+        let newMode: SiteWebsiteMode = isDesktop ? .mobile : .desktop
+        _ = SiteSettingsStore.shared.setWebsiteMode(newMode, for: host)
+        session.reload()
     }
 
     private func shareCurrentPageFromMenu() {
