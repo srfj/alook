@@ -97,7 +97,7 @@ final class BrowserPreferences {
             
             // Appearance
             key("AppearanceSettings", "appAppearance"): AppAppearance.system.rawValue,
-            key("AppearanceSettings", "addressBarPosition"): BrowserChromePosition.bottom.rawValue,
+            key("AppearanceSettings", "addressBarPosition"): BrowserChromePosition.top.rawValue,
             key("AppearanceSettings", "showsFullWebsiteAddress"): false,
             key("AppearanceSettings", "showsLandscapeTabBar"): true,
             key("AppearanceSettings", "pullToRefreshEnabled"): true,

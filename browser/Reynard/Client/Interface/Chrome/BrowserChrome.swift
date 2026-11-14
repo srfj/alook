@@ -65,6 +65,7 @@ final class BrowserChrome: UIView, UIGestureRecognizerDelegate {
     var onDownloads: (() -> Void)?
     var onNewTab: (() -> Void)?
     var onTabOverview: (() -> Void)?
+    var onMenu: (() -> Void)?
     var onOverlayDismiss: (() -> Void)?
     var onPageZoomOut: (() -> Void)?
     var onPageZoomIn: (() -> Void)?
@@ -670,6 +671,7 @@ final class BrowserChrome: UIView, UIGestureRecognizerDelegate {
         bottomToolbar.onDownloads = { [weak self] in self?.onDownloads?() }
         bottomToolbar.onTabOverview = { [weak self] in self?.onTabOverview?() }
         bottomToolbar.onHome = { [weak self] in self?.onNewTab?() }
+        bottomToolbar.onMenu = { [weak self] in self?.onMenu?() }
         
         actionBar.onPageZoomOut = { [weak self] in self?.onPageZoomOut?() }
         actionBar.onPageZoomIn = { [weak self] in self?.onPageZoomIn?() }
@@ -887,7 +889,7 @@ final class BrowserChrome: UIView, UIGestureRecognizerDelegate {
         bottomToolbar.detachAddressBar()
         switch mode {
         case .phone:
-            bottomToolbar.attachAddressBar(addressBar)
+            topToolbar.attachAddressBar(addressBar)
         case .compact, .pad:
             topToolbar.attachAddressBar(addressBar)
         }
@@ -945,7 +947,7 @@ final class BrowserChrome: UIView, UIGestureRecognizerDelegate {
     
     private func resolvedTopState(for state: State) -> TopToolbar.LayoutState {
         switch state.mode {
-        case .phone: return .hidden
+        case .phone: return .compact
         case .compact: return .compact
         case .pad: return .standard
         }
@@ -959,7 +961,7 @@ final class BrowserChrome: UIView, UIGestureRecognizerDelegate {
             return .compact
         case .phone:
             switch state.search {
-            case .inactive, .focused, .scrollingEmbeddedSuggestions: return .standard
+            case .inactive, .focused, .scrollingEmbeddedSuggestions: return .compact
             case .scrollingDetachedSuggestions: return .hidden
             }
         }

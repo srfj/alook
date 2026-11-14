@@ -23,7 +23,7 @@ struct BrowserLayout: Equatable {
             interfaceIdiom: interfaceIdiom,
             orientation: .portrait,
             chromeMode: interfaceIdiom == .pad ? .pad : .phone,
-            chromePosition: .bottom,
+            chromePosition: .top,
             tabOverviewToolbarPosition: interfaceIdiom == .pad ? .top : .bottom,
             overlayHost: interfaceIdiom == .pad ? .detached : .embedded
         )

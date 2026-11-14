@@ -453,6 +453,9 @@ final class BrowserViewController: UIViewController, GeckoScreenOrientationDeleg
                 }
             )
         }
+        browserChrome.onMenu = { [weak self] in
+            self?.presentAlookMenu()
+        }
         browserChrome.onLibrary = { [weak self] in
             self?.presentLibrary()
         }
@@ -767,7 +770,7 @@ final class BrowserViewController: UIViewController, GeckoScreenOrientationDeleg
             interfaceIdiom: .phone,
             orientation: .portrait,
             chromeMode: .phone,
-            chromePosition: .bottom,
+            chromePosition: .top,
             tabOverviewToolbarPosition: .bottom,
             overlayHost: .embedded
         )

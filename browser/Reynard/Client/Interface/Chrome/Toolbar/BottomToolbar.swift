@@ -38,6 +38,7 @@ final class BottomToolbar: UIView {
     var onDownloads: (() -> Void)?
     var onTabOverview: (() -> Void)?
     var onHome: (() -> Void)?
+    var onMenu: (() -> Void)?
     
     private let contentView: UIView = {
         let view = UIView()
@@ -271,7 +272,7 @@ final class BottomToolbar: UIView {
     @objc private func libraryTapped() { onLibrary?() }
     @objc private func downloadsTapped() { onDownloads?() }
     @objc private func tabOverviewTapped() { onTabOverview?() }
-    @objc private func menuTapped() { onLibrary?() }
+    @objc private func menuTapped() { onMenu?() }
     @objc private func homeTapped() { onHome?() }
     
     // MARK: - View Setup
