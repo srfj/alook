@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GeckoView
 
 extension BrowserViewController {
     func presentAlookMenu() {

@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import GeckoView
 
 enum VideoEnhanceController {
     private static let extensionID = "videoenhance@srfj"
