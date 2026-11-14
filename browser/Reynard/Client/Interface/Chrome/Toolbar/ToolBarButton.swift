@@ -25,6 +25,8 @@ final class ToolbarButton: UIButton {
     }
     
     enum ButtonType {
+        case menu
+        case home
         case back
         case forward
         case share
@@ -144,7 +146,7 @@ final class ToolbarButton: UIButton {
         guard toolbarButtonType != .download else {
             return
         }
-        setImage(UIImage(named: symbolName), for: .normal)
+        setImage(UIImage(named: symbolName) ?? UIImage(systemName: symbolName), for: .normal)
         let pointSize = toolbarButtonType == .newTab
         ? UX.newTabSymbolPointSize
         : UX.standardSymbolPointSize
@@ -196,6 +198,8 @@ final class ToolbarButton: UIButton {
     
     private var symbolName: String {
         switch toolbarButtonType {
+        case .menu: return "line.3.horizontal"
+        case .home: return "house"
         case .back: return "reynard.chevron.backward"
         case .forward: return "reynard.chevron.forward"
         case .share: return "reynard.square.and.arrow.up"

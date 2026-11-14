@@ -37,6 +37,7 @@ final class BottomToolbar: UIView {
     var onLibrary: (() -> Void)?
     var onDownloads: (() -> Void)?
     var onTabOverview: (() -> Void)?
+    var onHome: (() -> Void)?
     
     private let contentView: UIView = {
         let view = UIView()
@@ -81,10 +82,12 @@ final class BottomToolbar: UIView {
     private lazy var libraryButton = ToolbarButton(buttonType: .library, target: self, action: #selector(libraryTapped))
     private lazy var downloadButton = ToolbarButton(buttonType: .download, target: self, action: #selector(downloadsTapped))
     private lazy var tabOverviewButton = ToolbarButton(buttonType: .tabOverview, target: self, action: #selector(tabOverviewTapped))
+    private lazy var menuButton = ToolbarButton(buttonType: .menu, target: self, action: #selector(menuTapped))
+    private lazy var homeButton = ToolbarButton(buttonType: .home, target: self, action: #selector(homeTapped))
     private let buttonMenus = ToolbarButtonMenus()
     
     private lazy var buttons: UIStackView = {
-        let stack = UIStackView(arrangedSubviews: [backButton, forwardButton, shareButton, libraryButton, downloadButton, tabOverviewButton])
+        let stack = UIStackView(arrangedSubviews: [backButton, forwardButton, menuButton, tabOverviewButton, homeButton])
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.axis = .horizontal
         stack.distribution = .fillEqually
@@ -268,6 +271,8 @@ final class BottomToolbar: UIView {
     @objc private func libraryTapped() { onLibrary?() }
     @objc private func downloadsTapped() { onDownloads?() }
     @objc private func tabOverviewTapped() { onTabOverview?() }
+    @objc private func menuTapped() { onLibrary?() }
+    @objc private func homeTapped() { onHome?() }
     
     // MARK: - View Setup
     
